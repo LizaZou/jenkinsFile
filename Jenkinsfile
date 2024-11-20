@@ -9,11 +9,11 @@ pipeline {
     sub_link = 'https://github.com/ced-yxos/Sub_service.git'
     mul_link = 'https://github.com/ced-yxos/Mul_service.git'
     div_link = 'https://github.com/ced-yxos/Div_service.git'
-    calculator_link = 'https://github.com/ced-yxos/Calculator_service.git'
+    calculator_link = 'https://github.com/LizaZou/DevOps.git'
     dockerImage = ""
     registryCredential = 'repo_login'
   
-    //provide this line with one of your worker floating IP
+    //provide this line with one of your worker1 floating IP
     build_arg="--build-arg HIS_IP='192.168.37.133' ."
   }
 
